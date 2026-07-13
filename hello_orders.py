@@ -1,7 +1,8 @@
 import pandas as pd
+from rich import print
 
 orders = pd.read_csv("data/snack_orders.csv")
-
+print("I am running this with uv")
 print("Snack orders")
 print(orders)
 
